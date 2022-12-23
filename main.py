@@ -149,7 +149,7 @@ def search_tag():
         for note in notes:
             if tag in notes[note]["теги"]:
                 notes_filtered[note] = notes[note]
-        button_tag_search.setText("Сбросить поиск")
+        buttonFieldTeg.setText("Сбросить поиск")
         listNotes.clear()
         listTag.clear()
         listNotes.addItems(notes_filtered)
